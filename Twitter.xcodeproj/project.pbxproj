@@ -44,6 +44,7 @@
 		D693795225033915000EDB7C /* ActionSheetLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D693795125033915000EDB7C /* ActionSheetLauncher.swift */; };
 		D6937957250375AE000EDB7C /* ActionSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6937956250375AE000EDB7C /* ActionSheetCell.swift */; };
 		D693795925037BCF000EDB7C /* ActionSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D693795825037BCF000EDB7C /* ActionSheetViewModel.swift */; };
+		D69A3DCF250B603400CE9043 /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A3DCE250B603400CE9043 /* EditProfileController.swift */; };
 		D69A4F5F24D7B52600776092 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D69A4F5E24D7B52600776092 /* GoogleService-Info.plist */; };
 		D6A6E1C524DC365A004B01AD /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6E1C424DC365A004B01AD /* UserService.swift */; };
 		D6A6E1C724DC3D44004B01AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6E1C624DC3D44004B01AD /* User.swift */; };
@@ -92,6 +93,7 @@
 		D693795125033915000EDB7C /* ActionSheetLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetLauncher.swift; sourceTree = "<group>"; };
 		D6937956250375AE000EDB7C /* ActionSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetCell.swift; sourceTree = "<group>"; };
 		D693795825037BCF000EDB7C /* ActionSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetViewModel.swift; sourceTree = "<group>"; };
+		D69A3DCE250B603400CE9043 /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
 		D69A4F5E24D7B52600776092 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D6A6E1C424DC365A004B01AD /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		D6A6E1C624DC3D44004B01AD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 				D67EE88424DCFD1A00F462FE /* UploadTweetController.swift */,
 				D68C923A24E3A9AC00F16782 /* ProfileController.swift */,
 				D654BE642500CC57003AE4EA /* TweetController.swift */,
+				D69A3DCE250B603400CE9043 /* EditProfileController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				D657259F24D2CFC400013143 /* ConversationsController.swift in Sources */,
 				D65E1E1D24FE2919008568C9 /* UserCell.swift in Sources */,
 				D66CA24F24D40FBC0071AF9D /* Utilities.swift in Sources */,
+				D69A3DCF250B603400CE9043 /* EditProfileController.swift in Sources */,
 				D6937957250375AE000EDB7C /* ActionSheetCell.swift in Sources */,
 				D657257724D2B76B00013143 /* AppDelegate.swift in Sources */,
 				D6B9EA4C2508DD5100662C52 /* NotificationViewModel.swift in Sources */,
