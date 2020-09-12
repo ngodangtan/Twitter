@@ -45,6 +45,9 @@
 		D6937957250375AE000EDB7C /* ActionSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6937956250375AE000EDB7C /* ActionSheetCell.swift */; };
 		D693795925037BCF000EDB7C /* ActionSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D693795825037BCF000EDB7C /* ActionSheetViewModel.swift */; };
 		D69A3DCF250B603400CE9043 /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A3DCE250B603400CE9043 /* EditProfileController.swift */; };
+		D69A3DD3250B776E00CE9043 /* EditProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A3DD2250B776E00CE9043 /* EditProfileHeader.swift */; };
+		D69A3DD5250B7C6D00CE9043 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A3DD4250B7C6D00CE9043 /* EditProfileViewModel.swift */; };
+		D69A3DD7250B7D6F00CE9043 /* EditProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69A3DD6250B7D6F00CE9043 /* EditProfileCell.swift */; };
 		D69A4F5F24D7B52600776092 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D69A4F5E24D7B52600776092 /* GoogleService-Info.plist */; };
 		D6A6E1C524DC365A004B01AD /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6E1C424DC365A004B01AD /* UserService.swift */; };
 		D6A6E1C724DC3D44004B01AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A6E1C624DC3D44004B01AD /* User.swift */; };
@@ -94,6 +97,9 @@
 		D6937956250375AE000EDB7C /* ActionSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetCell.swift; sourceTree = "<group>"; };
 		D693795825037BCF000EDB7C /* ActionSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetViewModel.swift; sourceTree = "<group>"; };
 		D69A3DCE250B603400CE9043 /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		D69A3DD2250B776E00CE9043 /* EditProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileHeader.swift; sourceTree = "<group>"; };
+		D69A3DD4250B7C6D00CE9043 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		D69A3DD6250B7D6F00CE9043 /* EditProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileCell.swift; sourceTree = "<group>"; };
 		D69A4F5E24D7B52600776092 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D6A6E1C424DC365A004B01AD /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		D6A6E1C624DC3D44004B01AD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -182,15 +188,14 @@
 		D657258B24D2B78D00013143 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D69A3DD1250B774800CE9043 /* Profile */,
 				D67EE88F24DD0ADE00F462FE /* CaptionTextView.swift */,
 				D612DF9E24E2570600A4C48A /* TweetCell.swift */,
-				D66F9FC624FA07C800975492 /* ProfileHeader.swift */,
-				D659D11B24FCAD290003BB85 /* ProfileFilterView.swift */,
-				D659D11D24FCB8E80003BB85 /* ProfileFilterCell.swift */,
 				D65E1E1C24FE2919008568C9 /* UserCell.swift */,
 				D654BE662500CF30003AE4EA /* TweetHeader.swift */,
 				D6937956250375AE000EDB7C /* ActionSheetCell.swift */,
 				D6A7EC6E2508B85F00A6AD75 /* NotificationCell.swift */,
+				D69A3DD6250B7D6F00CE9043 /* EditProfileCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				D674C6F42501E4DA00AE3463 /* UploadTweetViewModel.swift */,
 				D693795825037BCF000EDB7C /* ActionSheetViewModel.swift */,
 				D6B9EA4B2508DD5100662C52 /* NotificationViewModel.swift */,
+				D69A3DD4250B7C6D00CE9043 /* EditProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -253,6 +259,17 @@
 				D65E4F3C24D31E7700C7247D /* RegistrationController.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D69A3DD1250B774800CE9043 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D66F9FC624FA07C800975492 /* ProfileHeader.swift */,
+				D659D11B24FCAD290003BB85 /* ProfileFilterView.swift */,
+				D659D11D24FCB8E80003BB85 /* ProfileFilterCell.swift */,
+				D69A3DD2250B776E00CE9043 /* EditProfileHeader.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +404,7 @@
 				D68C923B24E3A9AC00F16782 /* ProfileController.swift in Sources */,
 				D674C6F52501E4DA00AE3463 /* UploadTweetViewModel.swift in Sources */,
 				D66F9FC724FA07C800975492 /* ProfileHeader.swift in Sources */,
+				D69A3DD7250B7D6F00CE9043 /* EditProfileCell.swift in Sources */,
 				D612DF9F24E2570600A4C48A /* TweetCell.swift in Sources */,
 				D65E4F3B24D31DF800C7247D /* LoginController.swift in Sources */,
 				D66F7FD8250887D600EFDCDB /* Notification.swift in Sources */,
@@ -394,6 +412,7 @@
 				D65601E324FD3E08007B1F9B /* ProfileHeaderViewModel.swift in Sources */,
 				D67EE88524DCFD1A00F462FE /* UploadTweetController.swift in Sources */,
 				D6A6E1C724DC3D44004B01AD /* User.swift in Sources */,
+				D69A3DD3250B776E00CE9043 /* EditProfileHeader.swift in Sources */,
 				D657259B24D2CF9E00013143 /* ExploreController.swift in Sources */,
 				D657257924D2B76B00013143 /* SceneDelegate.swift in Sources */,
 				D66F7FDB2508922D00EFDCDB /* NotificationService.swift in Sources */,
@@ -402,6 +421,7 @@
 				D68C923824E39FDE00F16782 /* TweetViewModel.swift in Sources */,
 				D693795925037BCF000EDB7C /* ActionSheetViewModel.swift in Sources */,
 				D6A7EC6F2508B85F00A6AD75 /* NotificationCell.swift in Sources */,
+				D69A3DD5250B7C6D00CE9043 /* EditProfileViewModel.swift in Sources */,
 				D65E4F3D24D31E7700C7247D /* RegistrationController.swift in Sources */,
 				D657259924D2CF8D00013143 /* FeedController.swift in Sources */,
 				D65E148524D984E80049BBF5 /* Constants.swift in Sources */,
